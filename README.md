@@ -1,49 +1,47 @@
-## Teste para vaga de Desenvolvedor Back-end
-Criar uma API REST para gerenciar um estacionamento de carros e motos.
+# Backend Test
 
-## Cadastro de estabelecimento
+Create a REST API to manage a parking lot for cars and motorcycles.
 
-Criar um cadastro da empresa com os seguintes campos:
-- Nome;
-- CNPJ;
-- Endereço;
-- Telefone;
-- Quantidade de vagas para motos;
-- Quantidade de vagas para carros.
+## Establishment Registration
 
-**Todos** os campos são de preenchimento obrigatório.
+Create a company registration with the following fields:
+- Name;
+- CNPJ (Brazilian corporate tax ID);
+- Address;
+- Phone;
+- Number of motorcycle parking spaces;
+- Number of car parking spaces.
 
-## Cadastro de veículos
+**All** fields are mandatory.
 
-Criar um cadastro de veículos com os seguintes campos:
-- Marca;
-- Modelo;
-- Cor;
-- Placa;
-- Tipo.
+## Vehicle Registration
 
-**Todos** os campos são de preenchimento obrigatório.
+Create a vehicle registration with the following fields:
+- Brand;
+- Model;
+- Color;
+- License Plate;
+- Type.
 
-## Funcionalidades
+**All** fields are mandatory.
 
-   - **Estabelecimento:** CRUD;
-   - **Veículos:** CRUD;
-   - **Controle de entrada e saída de veículos.**
+## Features
 
-## Requisitos
+   - **Establishment:** CRUD;
+   - **Vehicles:** CRUD;
+   - **Control of vehicle entry and exit.**
 
-   - Modelagem de dados;
-   - O retorno deverá ser em formato JSON e XML;
-   - Requisições GET, POST, PUT ou DELETE, conforme a melhor prática;
-   - A persistência dos dados pode ser realizada da maneira que preferir;
-   - Criar README do projeto descrevendo as tecnologias utilizadas, chamadas dos serviços e configurações necessário para executar a aplicação.
+## Requirements
+
+   - Data modeling;
+   - The response should be in JSON and XML format;
+   - Use GET, POST, PUT, or DELETE requests, following best practices;
+   - Data persistence can be done in the way you prefer;
+   - Create a README for the project describing the technologies used, service calls, and configurations needed to run the application.
    
-## Ganha mais pontos
-   - Desenvolver utilizando TDD;
-   - Criar API de relatório;
-   - Sumário da quantidade de entrada e saída;
-   - Sumário da quantidade de entrada e saída de veículos por hora;
-   - Criar uma solução de autenticação.
-
-## Obrigado!
-Agradecemos sua participação no teste. Boa sorte! 😄
+## Bonus
+   - Develop using TDD (Test-Driven Development);
+   - Create a report API;
+   - Summary of the quantity of entries and exits;
+   - Summary of the quantity of vehicle entries and exits per hour;
+   - Implement an authentication solution.
